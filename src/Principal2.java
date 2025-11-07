@@ -4,7 +4,28 @@ import java.util.Scanner;
 public class Principal2 {
     public static void main(String[] args) {
 
-        try {
+        Scanner read = new Scanner(System.in); // New Version
+        int yourNumber, intents = 0;
+
+        int randomNumber = (int)(Math.random() * 11);
+
+        do {
+            if (intents == 0) {
+                System.out.print("Adivina el número entre 1 i 10: ");
+                yourNumber = read.nextInt();
+                intents++;
+            } else {
+                System.out.println("[!] - El nombre no és correcte:");
+                System.out.print("Adivina el número entre 1 i 10: ");
+                yourNumber = read.nextInt();
+            }
+
+        } while (randomNumber != yourNumber);
+
+        System.out.println("Has acertat, el nombre era " + randomNumber + ".");
+        read.close();
+
+        /*try {
             Scanner read = new Scanner(System.in);
             int edat = read.nextInt();
 
@@ -15,7 +36,7 @@ public class Principal2 {
             System.out.println("[!] - No pots ficar un nombre negatiu.");
         } finally {
             System.out.println("Exit!");
-        }
+        }*/
 
         /*Scanner read = new Scanner(System.in);
         int num;

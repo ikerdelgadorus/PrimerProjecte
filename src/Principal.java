@@ -12,7 +12,7 @@ public class Principal{
     public static void main(String[] args){
 
         //Exercici
-        Scanner read = new Scanner(System.in);
+        /*Scanner read = new Scanner(System.in);
         int divisio, num1, num2;
 
         try {
@@ -40,7 +40,7 @@ public class Principal{
             divisio = 0;
         }
 
-        System.out.println(divisio);
+        System.out.println(divisio);*/
 
         /*Scanner read = new Scanner(System.in);
         System.out.print("Write a text: ");
