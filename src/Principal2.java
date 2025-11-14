@@ -7,7 +7,14 @@ import java.util.concurrent.ExecutionException;
 
 public class Principal2 {
     public static void main(String[] args) {
-        System.out.println(" █████╗ ██████╗ ██╗██╗   ██╗██╗███╗   ██╗ █████╗     ███████╗██╗         ███╗   ██╗██╗   ██╗███╗   ███╗███████╗██████╗  ██████╗ ");
+
+        String[] paraules = {"Hola", "Adios", "Nuevo"};
+
+        for (String e:paraules) {
+            System.out.println(e);
+        }
+
+        /*System.out.println(" █████╗ ██████╗ ██╗██╗   ██╗██╗███╗   ██╗ █████╗     ███████╗██╗         ███╗   ██╗██╗   ██╗███╗   ███╗███████╗██████╗  ██████╗ ");
         System.out.println("██╔══██╗██╔══██╗██║██║   ██║██║████╗  ██║██╔══██╗    ██╔════╝██║         ████╗  ██║██║   ██║████╗ ████║██╔════╝██╔══██╗██╔═══██╗");
         System.out.println("███████║██║  ██║██║██║   ██║██║██╔██╗ ██║███████║    █████╗  ██║         ██╔██╗ ██║██║   ██║██╔████╔██║█████╗  ██████╔╝██║   ██║");
         System.out.println("██╔══██║██║  ██║██║╚██╗ ██╔╝██║██║╚██╗██║██╔══██║    ██╔══╝  ██║         ██║╚██╗██║██║   ██║██║╚██╔╝██║██╔══╝  ██╔══██╗██║   ██║");
@@ -27,7 +34,7 @@ public class Principal2 {
         String[] paraula1 = Arrays.copyOf(paraules, paraules.length/2);
         String[] paraula2 = Arrays.copyOfRange(paraules, paraules.length/2, paraules.length);
 
-        System.out.println(Arrays.toString(paraules));
+        System.out.println(Arrays.toString(paraules));*/
 
         /*Scanner read = new Scanner(System.in);
         int[] nums = new int[5];
